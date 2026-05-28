@@ -6,6 +6,7 @@
     "command": "kbackup",
     "rename-icon": "kbackup",
     "finish-args": [
+        "--device=dri",
         "--filesystem=host",
         "--share=ipc",
         "--socket=fallback-x11",

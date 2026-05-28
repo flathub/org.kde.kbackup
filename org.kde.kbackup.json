@@ -1,0 +1,33 @@
+{
+    "id": "org.kde.kbackup",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "6.10",
+    "sdk": "org.kde.Sdk",
+    "command": "kbackup",
+    "rename-icon": "kbackup",
+    "finish-args": [
+        "--filesystem=host",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland"
+    ],
+    "modules": [
+        {
+            "name": "kbackup",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kbackup-26.04.1.tar.xz",
+                    "sha256": "584d4f80ced90697799bec8ddcf3cfb1cc225e8ec6576ce23978844d0acb3219",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kbackup-$version.tar.xz"
+                    }
+                }
+            ]
+        }
+    ]
+}

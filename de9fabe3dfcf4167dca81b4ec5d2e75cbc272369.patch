@@ -1,0 +1,29 @@
+From de9fabe3dfcf4167dca81b4ec5d2e75cbc272369 Mon Sep 17 00:00:00 2001
+From: Justin Zobel <justin@1707.io>
+Date: Wed, 24 Jun 2026 13:20:52 +0930
+Subject: [PATCH] Appstream: Add developer
+
+(cherry picked from commit c1768504e5c9b13a6318c269971d8c8d170e760e)
+
+Co-authored-by: Justin Zobel <justin.zobel@gmail.com>
+---
+ src/org.kde.kbackup.appdata.xml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/org.kde.kbackup.appdata.xml b/src/org.kde.kbackup.appdata.xml
+index ed12555..bbd07b9 100644
+--- a/src/org.kde.kbackup.appdata.xml
++++ b/src/org.kde.kbackup.appdata.xml
+@@ -4,6 +4,9 @@
+   <metadata_license>FSFAP</metadata_license>
+   <project_license>GPL-2.0+</project_license>
+   <name>KBackup</name>
++  <developer id="org.kde">
++    <name translate="no">KDE</name>
++  </developer>
+   <name xml:lang="ar">النسخ الاحتياطي ك</name>
+   <name xml:lang="ast">KBackup</name>
+   <name xml:lang="bg">KBackup</name>
+-- 
+GitLab
+

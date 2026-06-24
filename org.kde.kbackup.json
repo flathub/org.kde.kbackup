@@ -31,6 +31,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kbackup-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "de9fabe3dfcf4167dca81b4ec5d2e75cbc272369.patch"
                 }
             ]
         }
